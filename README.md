@@ -2,7 +2,7 @@
 
 ## 🤓 Course overview and learning outcomes 
 
-# I have used android studio to perform this task. Language used is Java.
+# I have used android studio to perform this task. Language used is Java. (Code is provided in master repo)
 
 ## Output:
 
