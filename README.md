@@ -6,7 +6,7 @@
 
 ## Output:
 
-![Assignment 1](https://user-images.githubusercontent.com/60312215/135395956-b3f3f815-3899-4ef3-83e2-cc00545c9b85.png)
+![image](https://user-images.githubusercontent.com/60312215/136000952-92f40590-09de-49fd-98b1-189dd644bb08.png)
 
 The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
 
