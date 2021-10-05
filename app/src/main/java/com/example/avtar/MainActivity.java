@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Random;
+import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         txtName = findViewById(R.id.name);
-        final Random myRandom = new Random();
+        UUID uuid = UUID.randomUUID();
 
         displayid = findViewById(R.id.randomid);
         displayname = findViewById(R.id.dispname);
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 if(txtName.getText().toString().isEmpty()){
                     Toast.makeText(MainActivity.this, "Empty field", Toast.LENGTH_SHORT).show();
                 }else{
-                    randomid.setText(String.valueOf(myRandom.nextInt(100)));
+                    randomid.setText(String.valueOf(uuid));
                     String name = txtName.getText().toString();
                     displayname.setText(name);
                     Calendar calendar = Calendar.getInstance();
